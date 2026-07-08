@@ -81,3 +81,20 @@ train_log.txt
 train_out.txt
 train_output.txt
 
+# Root-level ad-hoc scripts, notebooks, and test files
+analyze_rules.py
+check_multiseed.py
+debug_parser.py
+diagnose.py
+inspect_proofs.py
+inspect_proofs2.py
+list_outputs.py
+test_classifier.py
+test_e2e.py
+test_posweight.py
+test_proof_parser.py
+v7_analysis.ipynb
+v8_analysis.ipynb
+visualize_model.py
+
+
