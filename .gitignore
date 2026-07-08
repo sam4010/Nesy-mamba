@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Datasets and heavy data
+nesy_mamba/data/
+data/
+downloads/
+kaggle_output*/
+kaggle_v*/
+kaggle_upload*/
+kaggle_kernel*/
+multiseed_results/
+_tmp_*
+*.zip
+
+# Checkpoints
+checkpoints/
+
+# Credentials / Secrets (CRITICAL)
+kaggle.json
+kaggle manoj.json
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# LaTeX build artifacts (Upload source .tex files, ignore build outputs)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.pdf
+*.docx
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+pdf_pages/
+pdf_texts.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Kaggle scripts and uploads
+deploy_*.py
+fetch_*.py
+poll_kernel*.py
+push_*.py
+_push_*.py
+_debug_fetch.py
+_push_vtype456.py
+kaggle_ablation/
+upload_dataset.py
+test_kaggle_auth.py
+
+# Auxiliary check and utility scripts
+check_all.py
+check_quota.py
+check_samarth.py
+check_sanskruti.py
+download_ckpt.py
+
+# Logs and local test outputs
+*.log
+*.txt
+!requirements.txt
+quick_results.txt
+quick_test.py
+train_err.txt
+train_log.txt
+train_out.txt
+train_output.txt
+
