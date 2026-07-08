@@ -55,12 +55,6 @@ Input Tokens ──► Token & Pos Emb ──► Mamba Backbone ──► Last-T
 │   ├── train.py             # Model training script
 │   ├── experiments.py       # Automated ablation/compositional suites
 │   └── visualize.py         # Plotting scripts for slot trajectories/heatmaps
-├── paper/                   # IEEE paper source files
-│   ├── main.tex             # Main paper LaTeX source
-│   ├── main_humanized.tex   # Alternate/extended LaTeX source
-│   ├── references.bib       # Bibliography database
-│   ├── architecture.png     # Architecture diagram
-│   └── fig_*.tex            # Plot diagrams in TikZ
 ├── tests/                   # Model and parser test suites
 ├── v7_analysis.ipynb        # Jupyter notebook for v7 model analysis
 ├── v8_analysis.ipynb        # Jupyter notebook for v8 model analysis
